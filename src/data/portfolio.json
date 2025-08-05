@@ -1,0 +1,99 @@
+{
+    "categories": [
+        {
+            "id": "all",
+            "name": "All",
+            "icon": "🔍",
+            "description": "All Projects"
+        },
+        {
+            "id": "software",
+            "name": "Software Engineering",
+            "icon": "💻",
+            "description": "Web development, APIs, databases, user-facing features"
+        },
+        {
+            "id": "data",
+            "name": "Data Science",
+            "icon": "📊",
+            "description": "Prediction models, analytics, visualizations"
+        },
+        {
+            "id": "ai",
+            "name": "Artificial Intelligence",
+            "icon": "🤖",
+            "description": "Language models, emotion detection, intelligent interaction"
+        },
+        {
+            "id": "games",
+            "name": "Game Development",
+            "icon": "🎮",
+            "description": "Real-time interactivity, simulation, immersive experiences"
+        }
+    ],
+    "portfolio": [
+        {
+            "title": "Reminisce",
+            "description": "MERN Stack Social Media Platform",
+            "cover": "/portfolio/reminisce.png",
+            "url": "https://github.com/jenil-prajapati/mern-project-reminisce",
+            "category": "software"
+        },
+        {
+            "title": "Weather App",
+            "description": "MERN Stack Weather Tracking Application",
+            "cover": "/portfolio/weatherapp.png",
+            "url": "https://github.com/jenil-prajapati/weatherapp-mern",
+            "category": "software"
+        },
+        {
+            "title": "Got Chu Gaucho",
+            "description": "SB Hacks Hackathon Project (web-focused MVP)",
+            "cover": "/portfolio/sbhacks.png",
+            "url": "https://github.com/jenil-prajapati/GotchuGaucho",
+            "category": "software"
+        },
+        {
+            "title": "Stock Market Analyzer",
+            "description": "ML-based S&P 500 prediction and analysis",
+            "cover": "/portfolio/s&p500.png",
+            "url": "https://github.com/jenil-prajapati/project-stock-sp500",
+            "category": "data"
+        },
+        {
+            "title": "Datathon",
+            "description": "Data visualization and statistical analysis project",
+            "cover": "/portfolio/datathon.png",
+            "url": "https://github.com/jenil-prajapati/Datathon",
+            "category": "data"
+        },
+        {
+            "title": "GenAI-EmotionalStoryTelling",
+            "description": "AI-powered interactive storytelling with emotional adaptation",
+            "cover": "/portfolio/genai.webp",
+            "url": "https://github.com/jenil-prajapati/GenAI-EmotionalStoryTelling",
+            "category": "ai"
+        },
+        {
+            "title": "YOLO Object Detection",
+            "description": "PyTorch implementation of YOLOv1 for real-time object detection with 91.1% mAP",
+            "cover": "/portfolio/genai-2.png",
+            "url": "https://github.com/jenil-prajapati/gen-ai",
+            "category": "ai"
+        },
+        {
+            "title": "Bow Master",
+            "description": "Virtual Reality archery game using Meta Quest",
+            "cover": "/portfolio/bowmaster.png",
+            "url": "https://github.com/jenil-prajapati/BowMaster",
+            "category": "games"
+        },
+        {
+            "title": "Boa Bomb",
+            "description": "Snake-style browser game with dynamic controls",
+            "cover": "/portfolio/boabomb.png",
+            "url": "https://github.com/jenil-prajapati/BoaBomb",
+            "category": "games"
+        }
+    ]
+}
