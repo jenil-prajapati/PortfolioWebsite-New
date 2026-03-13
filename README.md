@@ -9,8 +9,6 @@ Welcome to my coding portfolio! This web application is built using ReactJs with
 - [Installation](#installation)
 - [Technologies Used](#technologies-used)
 - [Project Structure](#project-structure)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
