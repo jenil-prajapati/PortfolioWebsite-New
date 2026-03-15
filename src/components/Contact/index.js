@@ -2,12 +2,14 @@ import Loader from "react-loaders"
 import "./index.scss"
 import AnimatedLetters from "../AnimatedLetters" 
 import { useEffect, useRef, useState } from "react"
+import { useTranslation } from "react-i18next"
 import emailjs from "@emailjs/browser"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons"
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons"
 
 const Contact = () => {
+    const { t } = useTranslation()
     const [letterClass, setLetterClass] = useState('text-animate')
     const refForm = useRef()
 
@@ -33,11 +35,11 @@ const Contact = () => {
             )
             .then(
                 () => {
-                    alert("Message successfully sent! I will get back to you within 1 to 2 business days.")
+                    alert(t('contact.successMsg'))
                     window.location.reload(false)
                 }, 
                 () => { 
-                    alert("Failed to send the message, please try again")
+                    alert(t('contact.errorMsg'))
                 }
             )
       }
@@ -47,23 +49,24 @@ const Contact = () => {
             <div className = "container contact-page">
                 <div className = "text-zone">
                     <table>
+                        <tbody>
                         <tr>
                             <td className="left-side">
                                 <h1>
-                                    <AnimatedLetters letterClass={letterClass} strArray = {"Contact me".split("")} idx = {15} />
+                                    <AnimatedLetters letterClass={letterClass} strArray={t('contact.title').split("")} idx={15} />
                                 </h1>
                                 <p>
                                     <br/>
-                                    Thank you for your interest in getting in touch! 
+                                    {t('contact.intro1')}
                                     <br/>
-                                    <br/>I value open communication and welcome any inquiries, feedback, or collaboration opportunities. Please don't hesitate to get in touch with me by filling out the contact form.
+                                    <br/>{t('contact.intro2')}
                                     <br/>
                                     <br/>
-                                    <a target = "_blank" rel = "noreferrer" href = "https://www.linkedin.com/in/jenilprajapati/">
-                                        <FontAwesomeIcon icon={faLinkedin}  class = "icon" color = "#4d4d4e" />
+                                    <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/jenilprajapati/">
+                                        <FontAwesomeIcon icon={faLinkedin} className="contact-icon" />
                                     </a>
-                                    <a target = "_blank" rel = "noreferrer" href = "mailto:prajapatijenil0407@gmail.com">
-                                        <FontAwesomeIcon icon={faEnvelope} class = "icon" color = "#4d4d4e" />
+                                    <a target="_blank" rel="noreferrer" href="mailto:prajapatijenil0407@gmail.com">
+                                        <FontAwesomeIcon icon={faEnvelope} className="contact-icon" />
                                     </a>
                                 </p>
                             </td>
@@ -71,26 +74,27 @@ const Contact = () => {
                                 <div className="contact-form" onSubmit={sendEmail}>
                                     <form ref={refForm}>
                                         <ul>
-                                            <li className = "half">
-                                                <input type="text" name="name" placeholder="Name" required />
+                                            <li className="half">
+                                                <input type="text" name="name" placeholder={t('contact.namePlaceholder')} required />
                                             </li>
                                             <li className="half">
-                                                <input type="email" name="email" placeholder = "Email" required />
+                                                <input type="email" name="email" placeholder={t('contact.emailPlaceholder')} required />
                                             </li>
                                             <li>
-                                                <input placeholder = "Subject" type="text" name="subject" required/>
+                                                <input placeholder={t('contact.subjectPlaceholder')} type="text" name="subject" required/>
                                             </li>
                                             <li>
-                                                <textarea placeholder="Message" name="message" required></textarea>
+                                                <textarea placeholder={t('contact.messagePlaceholder')} name="message" required></textarea>
                                             </li>
                                             <li>
-                                                <input type="submit" className="flat-button" value="SEND" />
+                                                <input type="submit" className="flat-button" value={t('contact.sendBtn')} />
                                             </li>
                                         </ul>
                                     </form>
                                 </div>
                             </td>
                         </tr>
+                        </tbody>
                     </table>
                 </div>
             </div>

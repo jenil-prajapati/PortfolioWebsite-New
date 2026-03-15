@@ -1,0 +1,219 @@
+{
+  "nav": {
+    "home": "HOME",
+    "about": "ABOUT",
+    "work": "WORK",
+    "teaching": "TEACHING",
+    "research": "RESEARCH",
+    "portfolio": "PORTFOLIO",
+    "contact": "CONTACT"
+  },
+  "home": {
+    "greeting": "Hi",
+    "intro": "I'm",
+    "name": "Jenil Prajapati,",
+    "job": "Software Engineer Intern.",
+    "education": "Computer Science & Statistics, 2026 at University of California - Santa Barbara",
+    "contactBtn": "CONTACT ME"
+  },
+  "about": {
+    "title": "About me",
+    "bio": "I am a very ambitious software developer with a unique background that has prepared me to be a team player who communicates effectively, faces problems analytically and has the technical skills to tackle any challenge.",
+    "techBio": "I am a very ambitious full-stack developer with a unique background that has prepared me to be a team player who communicates effectively, faces problems analytically and has the technical skills to tackle any challenge.",
+    "frameworksBtn": "FRAMEWORKS/TECHNOLOGIES",
+    "devToolsBtn": "DEVELOPMENT TOOLS",
+    "languagesBtn": "LANGUAGES"
+  },
+  "skills": {
+    "languages": "Languages",
+    "frameworks": "Frameworks & Technologies",
+    "devTools": "Development Tools",
+    "years": "{{count}} years"
+  },
+  "contact": {
+    "title": "Contact me",
+    "intro1": "Thank you for your interest in getting in touch!",
+    "intro2": "I value open communication and welcome any inquiries, feedback, or collaboration opportunities. Please don't hesitate to get in touch with me by filling out the contact form.",
+    "namePlaceholder": "Name",
+    "emailPlaceholder": "Email",
+    "subjectPlaceholder": "Subject",
+    "messagePlaceholder": "Message",
+    "sendBtn": "SEND",
+    "successMsg": "Message successfully sent! I will get back to you within 1 to 2 business days.",
+    "errorMsg": "Failed to send the message, please try again"
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "viewBtn": "View",
+    "focus": "Focus:",
+    "categories": {
+      "all": "All",
+      "software": "Software Engineering",
+      "data": "Data Science",
+      "ai": "Artificial Intelligence",
+      "games": "Game Development"
+    },
+    "categoryDescriptions": {
+      "all": "All Projects",
+      "software": "Web development, APIs, databases, user-facing features",
+      "data": "Prediction models, analytics, visualizations",
+      "ai": "Language models, emotion detection, intelligent interaction",
+      "games": "Real-time interactivity, simulation, immersive experiences"
+    },
+    "projects": {
+      "reminisce": {
+        "title": "Reminisce",
+        "description": "MERN Stack Social Media Platform"
+      },
+      "weatherapp": {
+        "title": "Weather App",
+        "description": "MERN Stack Weather Tracking Application"
+      },
+      "gotchugaucho": {
+        "title": "Got Chu Gaucho",
+        "description": "SB Hacks Hackathon Project (web-focused MVP)"
+      },
+      "stockmarket": {
+        "title": "Stock Market Analyzer",
+        "description": "ML-based S&P 500 prediction and analysis"
+      },
+      "datathon": {
+        "title": "Datathon",
+        "description": "Data visualization and statistical analysis project"
+      },
+      "genai": {
+        "title": "GenAI-EmotionalStoryTelling",
+        "description": "AI-powered interactive storytelling with emotional adaptation"
+      },
+      "yolo": {
+        "title": "YOLO Object Detection",
+        "description": "PyTorch implementation of YOLOv1 for real-time object detection with 91.1% mAP"
+      },
+      "parkingapp": {
+        "title": "Mobile Parking App",
+        "description": "One-stop Shop Mobile Parking Application Project"
+      },
+      "blackswan": {
+        "title": "Unwrapathon-BlackSwan",
+        "description": "Intelligent Reddit analysis platform filtering bot activity and identifying trending topics"
+      },
+      "outfitrec": {
+        "title": "Outfit Recommender",
+        "description": "Smart Styling AI Web App for Outfit Recommendation"
+      },
+      "bowmaster": {
+        "title": "Bow Master",
+        "description": "Virtual Reality archery game using Meta Quest"
+      },
+      "boabomb": {
+        "title": "Boa Bomb",
+        "description": "Snake-style browser game with dynamic controls"
+      }
+    }
+  },
+  "work": {
+    "title": "Work Experience",
+    "clickMore": "Click for more",
+    "events": [
+      {
+        "date": "Sep '25 — Jan '26",
+        "title": "Abundant Inc. (YC F'24)",
+        "description": [
+          "<h3>AI ENGINEER INTERN</h3>",
+          "Designing and shipping a production-grade benchmark and evaluation harness for AI agents (GPT-4/Claude/Gemini), exercising end-to-end reasoning across code, terminal automation, and distributed systems.",
+          "Building cloud-ready, containerized testbeds (Docker/K8s), deterministic CI/CD with PyTest, and observability/health checks; validated security (auth/ACLs), data integrity, and performance SLAs on real services (e.g., Redis/Postgres) while collaborating with 6 top research labs."
+        ]
+      },
+      {
+        "date": "Jun '25 — Present",
+        "title": "Event Staff App",
+        "description": [
+          "<h3>SOFTWARE ENGINEERING INTERN</h3>",
+          "Accelerated feature delivery by 33% through collaborative development with the Founder, engineering, and QA teams, utilizing GitHub, Docker, and Kubernetes, enhancing microservices deployment.",
+          "Spearheaded upgrade of CodeIgniter framework, resolving 10+ known bugs and paving the way for the adoption of modern PHP features, which boosted developer productivity across the engineering department.",
+          "Tested and secured a new Laravel API backend with Sanctum for token-based authentication, enabling businesses to programmatically access event data with permission checks, pagination, and CRUD capabilities for event records, enhancing software development and technology integration."
+        ]
+      },
+      {
+        "date": "Sep '24 — Jan '25",
+        "title": "META | Psychology & Brain Sciences Lab",
+        "description": [
+          "<h3>APPLICATION DEVELOPER INTERN</h3>",
+          "Enhanced an iOS app using Flutter and Firebase by addressing bugs, improving UI/UX, and implementing scalable solutions, while optimizing backend performance with Node.js and React to support increased user load in a collaborative environment.",
+          "Integrated cloud-native architecture principles for seamless scalability and performance, making it adaptable for various environments. Participated in collaborative engineering discussions to ensure alignment with cloud-native architecture and Kubernetes deployment strategies."
+        ]
+      },
+      {
+        "date": "Jun '24 — Sep '24",
+        "title": "Worley Engineering",
+        "description": [
+          "<h3>SIMULATION DATA ENGINEERING INTERN</h3>",
+          "Assembled interactive digital twin interfaces on Microsoft Azure using Cognite and AVEVA, which visualized real-time IoT sensor data integrated with high-resolution 3D models, accelerating anomaly detection by 15% using cloud-native architecture and promoting environmental awareness.",
+          "Deployed machine learning models leveraging data fusion techniques via PostgreSQL and RPA tools (Python, C#), fortifying critical system monitoring and elevating asset uptime by 5%, showcasing strong problem-solving and debugging skills in a collaborative environment.",
+          "Orchestrated a safety protocol testing framework within Azure, leveraging digital twins to simulate 500+ scenarios, pinpointing vulnerabilities and refining emergency response strategies, thus minimizing potential accident severity and promoting innovation among engineers.",
+          "Collaborated with SMEs and senior managers to analyze Digital Twin, IoT, and AR/VR solutions, leveraging tools like AVEVA and Cognite to optimize project delivery.",
+          "Independently developed predictive maintenance strategies using Python, C#, and Azure, integrating real-time data from IoT sensors and high-resolution 3D models to enhance asset monitoring and improve operational efficiency.",
+          "Delivered a detailed report proposing innovative cloud-based solutions and integrating CI/CD pipelines for safety protocols and workflow automation, showcasing measurable improvements in system uptime, risk management, and personnel readiness."
+        ]
+      }
+    ]
+  },
+  "teaching": {
+    "title": "Teaching",
+    "clickMore": "Click for more",
+    "events": [
+      {
+        "date": "Sep '24 — Jun '25",
+        "title": "Physics & Math CLAS Tutor",
+        "description": [
+          "<h3>UC SANTA BARBARA — ON-SITE</h3>",
+          "Conducted weekly tutoring sessions for undergraduate students in Physics and Mathematics courses, reinforcing core concepts and problem-solving strategies.",
+          "Provided individualized support to students, adapting explanations to diverse learning styles and helping improve academic performance across multiple course sections."
+        ]
+      },
+      {
+        "date": "Sep '24 — Dec '24",
+        "title": "CS Undergraduate Learning Assistant",
+        "description": [
+          "<h3>UC SANTA BARBARA — ON-SITE</h3>",
+          "Assisted professors in delivering Computer Science coursework by leading lab sections, holding office hours, and grading assignments.",
+          "Mentored students on programming fundamentals, data structures, and debugging techniques, fostering a supportive and collaborative learning environment."
+        ]
+      },
+      {
+        "date": "Apr '24",
+        "title": "Student Mentor — LAHacks 2024",
+        "description": [
+          "<h3>UCLA</h3>",
+          "Collaborated with a team of 5 members to mentor 60+ teams during hackathon regarding product development, deployment, database storage setup, styling, designing and presentation strategizing."
+        ]
+      }
+    ]
+  },
+  "research": {
+    "title": "Research & Leadership",
+    "clickMore": "Click for more",
+    "events": [
+      {
+        "date": "Aug '24 — Sep '24",
+        "title": "Human-AI Experience (HAX) Lab",
+        "description": [
+          "<h3>UNDERGRADUATE RESEARCH ASSISTANT — PART-TIME</h3>",
+          "Developed a virtual reality training system using Unity Hub and advanced animation rigging software that improved user engagement through immersive learning experiences in just two months.",
+          "Engineered machine learning models for motion analysis that provided real-time feedback to users, enhancing the overall training effectiveness and reducing error rates by 30%.",
+          "Implemented innovative data visualization techniques to display performance metrics effectively, enabling users to track progress and adjust training strategies based on insights gained."
+        ]
+      },
+      {
+        "date": "Sep '23 — Jul '24",
+        "title": "Google Developer Student Clubs",
+        "description": [
+          "<h3>DIRECTOR OF INSTRUCTION</h3>",
+          "Increased student engagement with Google technologies by leading a team of 12 to organize technical workshops and social meetings with industry professionals and professors, reaching over 100 students.",
+          "Elevated the club's reputation by pioneering interactive coding sessions, attracting 40+ students weekly and fostering a collaborative learning environment focused on Google's goals."
+        ]
+      }
+    ]
+  },
+  "documentTitle": "Jenil's Portfolio"
+}

@@ -1,0 +1,56 @@
+.teaching-logo-container {
+  z-index: 0;
+  width: 500px;
+  height: 500px;
+  opacity: 1;
+  position: absolute;
+  top: 50px;
+  right: 15%;
+  bottom: 0;
+  left: calc(50%);
+  margin: auto;
+  animation: teachingFadeIn 5s ease-in-out forwards;
+
+  .solid-logo {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    width: 100%;
+    opacity: 0;
+    z-index: 1;
+  }
+}
+
+@keyframes teachingFadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.teaching-logo-container .animated.fadeIn {
+  animation: teachingFadeIn 5s ease-in-out forwards;
+}
+
+@media (max-width: 1000px) {
+  .teaching-logo-container {
+    position: relative;
+    width: 250px;
+    height: auto;
+    top: 90px;
+    right: 0;
+    box-sizing: border-box;
+    margin: auto;
+    left: 0;
+
+    .solid-logo {
+      position: relative;
+      top: auto;
+      right: auto;
+      transform: none;
+    }
+  }
+}

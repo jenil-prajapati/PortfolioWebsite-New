@@ -54,6 +54,13 @@
             "category": "software"
         },
         {
+            "title": "Mobile Parking App",
+            "description": "One-stop Shop Mobile Parking Application Project",
+            "cover": "/portfolio/ParkNow.png",
+            "url": "https://github.com/jenil-prajapati/mobile-parking-app-project",
+            "category": "software"
+        },
+        {
             "title": "Stock Market Analyzer",
             "description": "ML-based S&P 500 prediction and analysis",
             "cover": "/portfolio/s&p500.png",
@@ -79,6 +86,20 @@
             "description": "PyTorch implementation of YOLOv1 for real-time object detection with 91.1% mAP",
             "cover": "/portfolio/genai-2.png",
             "url": "https://github.com/jenil-prajapati/gen-ai",
+            "category": "ai"
+        },
+        {
+            "title": "Unwrapathon-BlackSwan",
+            "description": "Intelligent Reddit analysis platform filtering bot activity and identifying trending topics",
+            "cover": "/portfolio/unwrapathon.png",
+            "url": "https://github.com/jenil-prajapati/Unwrapathon-BlackSwan",
+            "category": "ai"
+        },
+        {
+            "title": "Outfit Recommender",
+            "description": "Smart Styling AI Web App for Outfit Recommendation",
+            "cover": "/portfolio/outfitRec.png",
+            "url": "https://github.com/jenil-prajapati/outfit-rec-project",
             "category": "ai"
         },
         {

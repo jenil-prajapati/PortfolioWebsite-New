@@ -7,25 +7,6 @@
     z-index: 3;
     min-height: 500px;
     transition: width 0.3s ease-in-out;
-
-    // &:hover {
-    //     width: 130px;
-    //     .logo{
-    //         padding: 8px 10px; /* Adjust padding to match expanded width */
-    //         img {
-    //             width: 70%; /* Make the logo fill the expanded width */
-    //         }
-    //         .sub-logo{
-    //             width: 70%;
-    //             padding-left: 12px;
-    //         }
-    //     }
-    //     a{
-    //         &:after{
-    //             font-size: 18px;
-    //         }
-    //     }
-    // }
     
     .logo{
         display: block; 
@@ -47,17 +28,17 @@
         display: block;
         text-align: center; 
         position: absolute; 
-        height: 210px; 
+        height: 310px; 
         top: 50%; 
-        margin-top: -120px; 
+        margin-top: -155px; 
         width: 100%; 
 
         a { 
-            font-size: 22px; 
+            font-size: 20px; 
             color: #4d4d4e;
             display: block; 
-            line-height: 51px; 
-            height: 51px; 
+            line-height: 44px; 
+            height: 44px; 
             position: relative; 
             text-decoration: none; 
 
@@ -109,6 +90,20 @@
             }
         }
 
+        a.teaching-link {
+            &:after {
+                content: "TEACHING";
+                font-size: 6.5px;
+            }
+        }
+
+        a.research-link {
+            &:after {
+                content: "RESEARCH";
+                font-size: 6.5px;
+            }
+        }
+
         a.contact-link { 
             &:after { 
                 content: "CONTACT"; 
@@ -126,6 +121,35 @@
             svg{
                 color: #ffd700; 
             }
+        }
+    }
+
+    .lang-toggle {
+        position: absolute;
+        bottom: 110px;
+        width: 100%;
+        text-align: center;
+        cursor: pointer;
+        font-family: 'Helvetica Neue', sans-serif;
+        font-size: 10px;
+        letter-spacing: 1px;
+        color: #4d4d4e;
+        transition: color 0.3s ease;
+        user-select: none;
+        padding: 6px 0;
+
+        &:hover {
+            color: #ffd700;
+        }
+
+        .active-lang {
+            color: #ffd700;
+            font-weight: bold;
+        }
+
+        .lang-divider {
+            margin: 0 2px;
+            color: #4d4d4e;
         }
     }
 
@@ -168,7 +192,6 @@
         }
 
         nav{
-            // display: block; 
             width: 100%; 
             height: 100%; 
             background: #181818;
@@ -207,6 +230,17 @@
             right: 15px; 
         }
 
+        .lang-toggle {
+            position: absolute;
+            top: 15px;
+            left: 15px;
+            bottom: auto;
+            width: auto;
+            font-size: 13px;
+            z-index: 4;
+            background: #181818;
+            padding: 6px 12px;
+            border-radius: 4px;
+        }
     }
-  }
-  
+}

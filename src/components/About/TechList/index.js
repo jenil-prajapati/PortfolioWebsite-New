@@ -1,8 +1,10 @@
 import React, { useState } from "react";
+import { useTranslation } from "react-i18next";
 import ProgressBar from "../ProgressBar";
 import "./index.scss"
 
 const FrameworksList = () => {
+  const { t } = useTranslation();
   const [frameworks] = useState([
     { name: "Large Language Models", progress: 37.5, className: "llm-progress", years: 1.5 },
     { name: "Natural Language Processing", progress: 37.5, className: "nlp-progress", years: 1.5 },
@@ -16,13 +18,13 @@ const FrameworksList = () => {
 
   return (
     <div>
-      <h2>Frameworks & Technologies</h2>
+      <h2>{t('skills.frameworks')}</h2>
       <ul>
         {frameworks
           .sort((a, b) => a.years - b.years)
           .map((framework, index) => (
             <li key={index}>
-              <span>{framework.name}: {`${framework.years} years`}</span>
+              <span>{framework.name}: {t('skills.years', { count: framework.years })}</span>
               <ProgressBar progress={framework.progress} className={framework.className} />
             </li>
           ))}

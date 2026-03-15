@@ -2,6 +2,7 @@ import "./index.scss";
 import AnimatedLetters from "../AnimatedLetters"
 import { useEffect, useState } from "react";
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPython, faCss3, faJava, faHtml5, faAmazon, faReact } from "@fortawesome/free-brands-svg-icons";
 import { faAngleDoubleDown } from "@fortawesome/free-solid-svg-icons";
@@ -9,6 +10,7 @@ import Loader from "react-loaders";
 import LanguageList from "./LanguageList";
 
 const About = () => {
+    const { t } = useTranslation();
     const [letterClass, setLetterClass] = useState('text-animate');
     const [showScrollIndicator, setShowScrollIndicator] = useState(true);
 
@@ -43,14 +45,14 @@ const About = () => {
             <div className="container about-page">
                 <div className="text-zone">
                     <h1>
-                        <AnimatedLetters letterClass={letterClass} strArray={"About me".split("")} idx={15}/>
+                        <AnimatedLetters letterClass={letterClass} strArray={t('about.title').split("")} idx={15}/>
                     </h1>
                     <p>
-                        I am a very ambitious software developer with a unique background that has prepared me to be a team player who communicates effectively, faces problems analytically and has the technical skills to tackle any challenge.
+                        {t('about.bio')}
                         <br/>
                         <LanguageList />
-                        <Link to="/about/tech" className="flat-button">FRAMEWORKS/TECHNOLOGIES</Link>
-                        <Link to="/about/dev" className="flat-button">DEVELOPMENT TOOLS</Link>
+                        <Link to="/about/tech" className="flat-button">{t('about.frameworksBtn')}</Link>
+                        <Link to="/about/dev" className="flat-button">{t('about.devToolsBtn')}</Link>
                     </p>
                 </div>
                 {showScrollIndicator && (

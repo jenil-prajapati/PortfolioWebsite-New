@@ -1,0 +1,219 @@
+{
+  "nav": {
+    "home": "START",
+    "about": "ÜBER MICH",
+    "work": "ARBEIT",
+    "teaching": "LEHRE",
+    "research": "FORSCHUNG",
+    "portfolio": "PORTFOLIO",
+    "contact": "KONTAKT"
+  },
+  "home": {
+    "greeting": "Hallo",
+    "intro": "Ich bin",
+    "name": "Jenil Prajapati,",
+    "job": "Software-Ingenieur Praktikant.",
+    "education": "Informatik & Statistik, 2026 an der University of California - Santa Barbara",
+    "contactBtn": "KONTAKTIERE MICH"
+  },
+  "about": {
+    "title": "Über mich",
+    "bio": "Ich bin ein sehr ambitionierter Softwareentwickler mit einem einzigartigen Hintergrund, der mich darauf vorbereitet hat, ein Teamplayer zu sein, der effektiv kommuniziert, Probleme analytisch angeht und über die technischen Fähigkeiten verfügt, jede Herausforderung zu meistern.",
+    "techBio": "Ich bin ein sehr ambitionierter Full-Stack-Entwickler mit einem einzigartigen Hintergrund, der mich darauf vorbereitet hat, ein Teamplayer zu sein, der effektiv kommuniziert, Probleme analytisch angeht und über die technischen Fähigkeiten verfügt, jede Herausforderung zu meistern.",
+    "frameworksBtn": "FRAMEWORKS/TECHNOLOGIEN",
+    "devToolsBtn": "ENTWICKLUNGSTOOLS",
+    "languagesBtn": "SPRACHEN"
+  },
+  "skills": {
+    "languages": "Programmiersprachen",
+    "frameworks": "Frameworks & Technologien",
+    "devTools": "Entwicklungstools",
+    "years": "{{count}} Jahre"
+  },
+  "contact": {
+    "title": "Kontakt",
+    "intro1": "Vielen Dank für Ihr Interesse an einer Kontaktaufnahme!",
+    "intro2": "Ich schätze offene Kommunikation und freue mich über Anfragen, Feedback oder Möglichkeiten zur Zusammenarbeit. Zögern Sie nicht, mich über das Kontaktformular zu erreichen.",
+    "namePlaceholder": "Name",
+    "emailPlaceholder": "E-Mail",
+    "subjectPlaceholder": "Betreff",
+    "messagePlaceholder": "Nachricht",
+    "sendBtn": "SENDEN",
+    "successMsg": "Nachricht erfolgreich gesendet! Ich werde mich innerhalb von 1 bis 2 Werktagen bei Ihnen melden.",
+    "errorMsg": "Nachricht konnte nicht gesendet werden, bitte versuchen Sie es erneut"
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "viewBtn": "Ansehen",
+    "focus": "Schwerpunkt:",
+    "categories": {
+      "all": "Alle",
+      "software": "Softwareentwicklung",
+      "data": "Datenwissenschaft",
+      "ai": "Künstliche Intelligenz",
+      "games": "Spieleentwicklung"
+    },
+    "categoryDescriptions": {
+      "all": "Alle Projekte",
+      "software": "Webentwicklung, APIs, Datenbanken, benutzerorientierte Funktionen",
+      "data": "Vorhersagemodelle, Analysen, Visualisierungen",
+      "ai": "Sprachmodelle, Emotionserkennung, intelligente Interaktion",
+      "games": "Echtzeit-Interaktivität, Simulation, immersive Erlebnisse"
+    },
+    "projects": {
+      "reminisce": {
+        "title": "Reminisce",
+        "description": "MERN-Stack Social-Media-Plattform"
+      },
+      "weatherapp": {
+        "title": "Wetter-App",
+        "description": "MERN-Stack Wetterverfolgungsanwendung"
+      },
+      "gotchugaucho": {
+        "title": "Got Chu Gaucho",
+        "description": "SB Hacks Hackathon-Projekt (web-fokussiertes MVP)"
+      },
+      "stockmarket": {
+        "title": "Börsenanalysator",
+        "description": "ML-basierte S&P 500 Vorhersage und Analyse"
+      },
+      "datathon": {
+        "title": "Datathon",
+        "description": "Datenvisualisierung und statistisches Analyseprojekt"
+      },
+      "genai": {
+        "title": "GenAI-Emotionales Geschichtenerzählen",
+        "description": "KI-gestütztes interaktives Geschichtenerzählen mit emotionaler Anpassung"
+      },
+      "yolo": {
+        "title": "YOLO Objekterkennung",
+        "description": "PyTorch-Implementierung von YOLOv1 für Echtzeit-Objekterkennung mit 91,1% mAP"
+      },
+      "parkingapp": {
+        "title": "Mobile Park-App",
+        "description": "All-in-One Mobile Parkanwendung"
+      },
+      "blackswan": {
+        "title": "Unwrapathon-BlackSwan",
+        "description": "Intelligente Reddit-Analyseplattform zur Filterung von Bot-Aktivitäten und Erkennung von Trendthemen"
+      },
+      "outfitrec": {
+        "title": "Outfit-Empfehlung",
+        "description": "KI-gestützte Web-App für intelligente Outfit-Empfehlungen"
+      },
+      "bowmaster": {
+        "title": "Bow Master",
+        "description": "Virtual-Reality-Bogenschießspiel mit Meta Quest"
+      },
+      "boabomb": {
+        "title": "Boa Bomb",
+        "description": "Snake-artiges Browserspiel mit dynamischer Steuerung"
+      }
+    }
+  },
+  "work": {
+    "title": "Berufserfahrung",
+    "clickMore": "Klicken für mehr",
+    "events": [
+      {
+        "date": "Sep '25 — Jan '26",
+        "title": "Abundant Inc. (YC F'24)",
+        "description": [
+          "<h3>KI-INGENIEUR PRAKTIKANT</h3>",
+          "Entwurf und Bereitstellung eines produktionsreifen Benchmark- und Evaluierungsrahmens für KI-Agenten (GPT-4/Claude/Gemini), mit End-to-End-Reasoning über Code, Terminal-Automatisierung und verteilte Systeme.",
+          "Aufbau cloud-fähiger, containerisierter Testumgebungen (Docker/K8s), deterministischer CI/CD mit PyTest und Observability/Health-Checks; Validierung von Sicherheit (Auth/ACLs), Datenintegrität und Performance-SLAs auf realen Diensten (z.B. Redis/Postgres) in Zusammenarbeit mit 6 führenden Forschungslaboren."
+        ]
+      },
+      {
+        "date": "Jun '25 — Heute",
+        "title": "Event Staff App",
+        "description": [
+          "<h3>SOFTWARE-INGENIEUR PRAKTIKANT</h3>",
+          "Beschleunigte die Feature-Bereitstellung um 33% durch kollaborative Entwicklung mit dem Gründer, Entwicklungs- und QA-Teams unter Einsatz von GitHub, Docker und Kubernetes zur Verbesserung der Microservices-Bereitstellung.",
+          "Leitete das Upgrade des CodeIgniter-Frameworks, behob über 10 bekannte Fehler und ebnete den Weg für die Einführung moderner PHP-Features, was die Produktivität der Entwickler in der gesamten Abteilung steigerte.",
+          "Testete und sicherte ein neues Laravel-API-Backend mit Sanctum für tokenbasierte Authentifizierung, das Unternehmen den programmatischen Zugriff auf Veranstaltungsdaten mit Berechtigungsprüfungen, Paginierung und CRUD-Funktionen für Veranstaltungsdatensätze ermöglicht."
+        ]
+      },
+      {
+        "date": "Sep '24 — Jan '25",
+        "title": "META | Psychologie & Hirnwissenschaften Labor",
+        "description": [
+          "<h3>ANWENDUNGSENTWICKLER PRAKTIKANT</h3>",
+          "Verbesserte eine iOS-App mit Flutter und Firebase durch Fehlerbehebung, UI/UX-Verbesserungen und Implementierung skalierbarer Lösungen, bei gleichzeitiger Optimierung der Backend-Leistung mit Node.js und React zur Unterstützung erhöhter Benutzerlast.",
+          "Integrierte Cloud-native Architekturprinzipien für nahtlose Skalierbarkeit und Leistung. Nahm an kollaborativen Ingenieurdiskussionen teil, um die Ausrichtung auf Cloud-native Architektur und Kubernetes-Bereitstellungsstrategien sicherzustellen."
+        ]
+      },
+      {
+        "date": "Jun '24 — Sep '24",
+        "title": "Worley Engineering",
+        "description": [
+          "<h3>SIMULATIONS-DATENINGENIEUR PRAKTIKANT</h3>",
+          "Erstellte interaktive Digital-Twin-Schnittstellen auf Microsoft Azure mit Cognite und AVEVA, die Echtzeit-IoT-Sensordaten integriert mit hochauflösenden 3D-Modellen visualisierten und die Anomalieerkennung um 15% beschleunigten.",
+          "Setzte Machine-Learning-Modelle mit Datenfusionstechniken über PostgreSQL und RPA-Tools (Python, C#) ein, stärkte die kritische Systemüberwachung und steigerte die Anlagenverfügbarkeit um 5%.",
+          "Orchestrierte ein Sicherheitsprotokoll-Testframework in Azure, nutzte digitale Zwillinge zur Simulation von über 500 Szenarien, identifizierte Schwachstellen und optimierte Notfallreaktionsstrategien.",
+          "Arbeitete mit Fachexperten und Führungskräften zusammen, um Digital Twin-, IoT- und AR/VR-Lösungen zu analysieren, und nutzte Tools wie AVEVA und Cognite zur Optimierung der Projektabwicklung.",
+          "Entwickelte eigenständig prädiktive Wartungsstrategien mit Python, C# und Azure, integrierte Echtzeitdaten von IoT-Sensoren und hochauflösende 3D-Modelle zur Verbesserung der Anlagenüberwachung.",
+          "Erstellte einen detaillierten Bericht mit innovativen Cloud-basierten Lösungen und Integration von CI/CD-Pipelines für Sicherheitsprotokolle und Workflow-Automatisierung, mit messbaren Verbesserungen bei Systemverfügbarkeit und Risikomanagement."
+        ]
+      }
+    ]
+  },
+  "teaching": {
+    "title": "Lehrtätigkeit",
+    "clickMore": "Klicken für mehr",
+    "events": [
+      {
+        "date": "Sep '24 — Jun '25",
+        "title": "Physik & Mathematik CLAS-Tutor",
+        "description": [
+          "<h3>UC SANTA BARBARA — VOR ORT</h3>",
+          "Durchführung wöchentlicher Nachhilfestunden für Studierende in Physik und Mathematik, Vertiefung von Kernkonzepten und Problemlösungsstrategien.",
+          "Individuelle Unterstützung der Studierenden mit angepassten Erklärungen für verschiedene Lernstile zur Verbesserung der akademischen Leistung in mehreren Kursabschnitten."
+        ]
+      },
+      {
+        "date": "Sep '24 — Dez '24",
+        "title": "Informatik Lernassistent",
+        "description": [
+          "<h3>UC SANTA BARBARA — VOR ORT</h3>",
+          "Unterstützung von Professoren bei der Durchführung von Informatikkursen durch Leitung von Laborabschnitten, Sprechstunden und Korrektur von Aufgaben.",
+          "Betreuung von Studierenden in Programmiergrundlagen, Datenstrukturen und Debugging-Techniken in einer unterstützenden und kollaborativen Lernumgebung."
+        ]
+      },
+      {
+        "date": "Apr '24",
+        "title": "Studentenmentor — LAHacks 2024",
+        "description": [
+          "<h3>UCLA</h3>",
+          "Zusammenarbeit mit einem 5-köpfigen Team zur Betreuung von über 60 Teams während des Hackathons in den Bereichen Produktentwicklung, Deployment, Datenbank-Setup, Styling, Design und Präsentationsstrategie."
+        ]
+      }
+    ]
+  },
+  "research": {
+    "title": "Forschung & Führung",
+    "clickMore": "Klicken für mehr",
+    "events": [
+      {
+        "date": "Aug '24 — Sep '24",
+        "title": "Human-AI Experience (HAX) Labor",
+        "description": [
+          "<h3>WISSENSCHAFTLICHE HILFSKRAFT — TEILZEIT</h3>",
+          "Entwicklung eines Virtual-Reality-Trainingssystems mit Unity Hub und fortschrittlicher Animations-Rigging-Software, das das Nutzerengagement durch immersive Lernerfahrungen in nur zwei Monaten verbesserte.",
+          "Entwicklung von Machine-Learning-Modellen für Bewegungsanalyse mit Echtzeit-Feedback, Steigerung der Trainingseffektivität und Reduzierung der Fehlerquote um 30%.",
+          "Implementierung innovativer Datenvisualisierungstechniken zur effektiven Darstellung von Leistungsmetriken, die es Nutzern ermöglichten, Fortschritte zu verfolgen und Trainingsstrategien basierend auf gewonnenen Erkenntnissen anzupassen."
+        ]
+      },
+      {
+        "date": "Sep '23 — Jul '24",
+        "title": "Google Developer Student Clubs",
+        "description": [
+          "<h3>LEITER DER LEHRE</h3>",
+          "Steigerung des studentischen Engagements mit Google-Technologien durch Leitung eines 12-köpfigen Teams zur Organisation technischer Workshops und sozialer Treffen mit Branchenexperten und Professoren, mit einer Reichweite von über 100 Studierenden.",
+          "Steigerung des Ansehens des Clubs durch Einführung interaktiver Coding-Sessions, die wöchentlich über 40 Studierende anzogen und eine kollaborative Lernumgebung im Sinne der Ziele von Google förderten."
+        ]
+      }
+    ]
+  },
+  "documentTitle": "Jenils Portfolio"
+}

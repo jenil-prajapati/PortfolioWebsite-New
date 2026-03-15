@@ -1,8 +1,10 @@
 import React, { useState } from "react";
+import { useTranslation } from "react-i18next";
 import ProgressBar from "../ProgressBar";
 import "./index.scss"
 
 const DevToolsList = () => {
+  const { t } = useTranslation();
   const [devTools] = useState([
     { name: "Firebase", progress: 12.5, className: "firebase-progress", years: 0.5 },
     { name: "Flutter", progress: 12.5, className: "flutter-progress", years: 0.5 },
@@ -14,13 +16,13 @@ const DevToolsList = () => {
 
   return (
     <div>
-      <h2>Development Tools</h2>
+      <h2>{t('skills.devTools')}</h2>
       <ul>
         {devTools
           .sort((a, b) => a.years - b.years)
           .map((tool, index) => (
             <li key={index}>
-              <span>{tool.name}: {`${tool.years} years`}</span>
+              <span>{tool.name}: {t('skills.years', { count: tool.years })}</span>
               <ProgressBar progress={tool.progress} className={tool.className} />
             </li>
           ))}

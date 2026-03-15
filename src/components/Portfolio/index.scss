@@ -78,6 +78,8 @@
         overflow: hidden;
         border-radius: 10px;
         max-width: calc(30%);
+        opacity: 0;
+        animation: cardFadeIn 0.5s ease forwards;
 
         .portfolio-image {
             position: absolute;
@@ -85,6 +87,8 @@
             width: 100%;
             height: 100%;
             object-fit: cover;
+            object-position: left center;
+            background-color: #1d1d1d;
         }
 
         .content {
@@ -239,5 +243,16 @@
             width: 90vh;
             height: 55vh;
         }
+    }
+}
+
+@keyframes cardFadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
     }
 }
